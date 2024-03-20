@@ -1,6 +1,4 @@
-
-
-import 'package:odevflutter/models/question.dart';
+import 'package:quizapp/models/question.dart';
 
 const questions = [
   Question(
@@ -10,4 +8,7 @@ const questions = [
   Question(
       question: "Flutter hangi dili kullanır?",
       answers: ["javascript", "dart", "c#", "java"]),
+  Question(question: "Deneme", answers: ["a", "b", "c", "d", "e"]),
+  Question(question: "Deneme", answers: ["sd", "bsd"]),
+  Question(question: "Deneme", answers: ["a", "b", "c", "d", "e", "f", "g"]),
 ];
